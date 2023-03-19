@@ -1,4 +1,4 @@
-const { DataTypes, DATEONLY } = require('sequelize');
+const { DataTypes } = require('sequelize');
 const sequelize = require('../utils/connection'); 
    // En Mayúsculas y singular      // en minúsculas y singular
 const User = sequelize.define('user', {
